@@ -19,10 +19,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp LEFT_WIN  &kp SEMICOLON  &kp W  &kp E    &kp R  &kp T        &kp Y          &kp U  &kp I      &kp O  &kp SLASH  &kp DELETE
+&kp LEFT_WIN  &kp SEMICOLON  &kp W  &kp E    &kp R  &kp T        &kp Y          &kp U  &kp I      &kp O  &kp ENTER  &kp DELETE
 &kp MINUS     &kp A          &kp S  &kp D    &kp F  &kp G        &kp H          &kp J  &kp K      &kp L  &kp Q      &kp SQT
 &kp LSHFT     &kp DOT        &kp X  &kp C    &kp V  &kp B        &kp N          &kp M  &kp P      &kp Z  &kp COMMA  &kp LEFT_ALT
-                                    &kp TAB  &mo 2  &kp SPACE    &kp BACKSPACE  &mo 1  &kp ENTER
+                                    &kp TAB  &mo 2  &kp SPACE    &kp BACKSPACE  &mo 1  &kp LSHFT
             >;
         };
 
@@ -49,10 +49,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans     &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp STAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &trans
-&trans     &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH       &kp GRAVE
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE       &kp TILDE
-                             &kp TAB   &trans    &kp SPACE    &kp RET    &trans     &kp BACKSPACE
+&trans     &kp EXCL   &kp AT     &kp HASH   &kp DLLR       &kp PRCNT           &trans   &kp MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET  &trans
+&trans     &kp QMARK  &kp GRAVE  &kp TILDE  &kp LESS_THAN  &kp GREATER_THAN    &trans   &kp EQUAL  &kp LBKT              &kp RBKT               &kp ASTRK  &trans
+&kp LSHFT  &trans     &kp AMPS   &kp PIPE   &kp SLASH      &kp BACKSLASH       &trans   &kp PLUS   &kp LBRC              &kp RBRC               &kp UNDER  &trans
+                                 &kp TAB    &trans         &kp SPACE           &kp RET  &trans     &kp BACKSPACE
             >;
         };
     };
