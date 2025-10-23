@@ -50,8 +50,8 @@
 
             bindings = <
 &trans        &trans     &trans      &kp AMPS  &kp UNDER  &kp TILDE       &kp PRCNT        &kp PIPE     &kp BACKSLASH  &trans    &trans      &trans
-&trans        &kp DEL    &kp SQT     &kp LEFT  &kp RIGHT  &kp QUESTION    &kp EXCLAMATION  &kp UP       &kp DOWN       &kp DQT   &kp ESCAPE  &trans
-&kp LEFT_ALT  &kp COLON  &kp DOLLAR  &trans    &kp GRAVE  &trans          &trans           &kp AT_SIGN  &trans         &kp HASH  &kp SEMI    &kp CLCK
+&kp LEFT_ALT  &kp DEL    &kp SQT     &kp LEFT  &kp RIGHT  &kp QUESTION    &kp EXCLAMATION  &kp UP       &kp DOWN       &kp DQT   &kp ESCAPE  &kp CAPS
+&trans        &kp COLON  &kp DOLLAR  &trans    &kp GRAVE  &trans          &trans           &kp AT_SIGN  &trans         &kp HASH  &kp SEMI    &trans
                                      &trans    &trans     &trans          &trans           &trans       &trans
             >;
         };
