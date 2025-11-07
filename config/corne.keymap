@@ -19,25 +19,19 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans  &trans  &kp W    &kp L    &kp P  &kp V        &kp K          &kp F  &kp U      &kp Y      &trans  &trans
-&trans  &kp J   &kp R    &kp S    &kp T  &kp G        &kp M          &kp N  &kp E      &kp I      &kp B   &trans
-&kp Q   &kp A   &kp DOT  &kp C    &kp D  &trans       &trans         &kp H  &kp Z      &kp COMMA  &kp O   &kp X
-                         &kp TAB  &mo 1  &kp SPACE    &kp BACKSPACE  &mo 2  &kp ENTER
+&trans  &trans  &kp W           &kp L               &kp P             &kp V        &kp K          &kp F              &kp U                &kp Y            &trans  &trans
+&trans  &kp J   &mt LEFT_ALT R  &mt LEFT_CONTROL S  &mt LEFT_SHIFT T  &kp G        &kp M          &mt RIGHT_SHIFT N  &mt RIGHT_CONTROL E  &mt RIGHT_ALT I  &kp B   &trans
+&kp Q   &kp A   &kp DOT         &kp C               &kp D             &trans       &trans         &kp H              &kp Z                &kp COMMA        &kp O   &kp X
+                                &kp TAB             &mo 1             &kp SPACE    &kp BACKSPACE  &mo 2              &kp ENTER
             >;
         };
 
         lower_layer {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
             bindings = <
-&trans  &trans         &trans          &kp LEFT_PARENTHESIS  &kp PLUS      &kp EQUAL    &kp CARET      &kp ASTRK  &kp RIGHT_PARENTHESIS  &trans           &trans            &trans
-&trans  &kp LESS_THAN  &kp NUMBER_2    &kp NUMBER_3          &kp NUMBER_4  &kp N5       &kp NUMBER_6   &kp N7     &kp N8                 &kp N9           &kp GREATER_THAN  &trans
-&trans  &kp NUMBER_1   &kp LEFT_BRACE  &kp LEFT_BRACKET      &kp MINUS     &trans       &trans         &kp SLASH  &kp RIGHT_BRACKET      &kp RIGHT_BRACE  &kp N0            &trans
-                                       &kp LEFT_SHIFT        &trans        &kp SPACE    &kp BACKSPACE  &trans     &kp LEFT_CONTROL
+&trans  &trans     &kp CARET  &kp LESS_THAN  &kp GREATER_THAN  &trans    &trans  &kp RIGHT_PARENTHESIS  &kp RBKT  &kp RIGHT_BRACE  &trans    &trans
+&trans  &kp N1     &kp MINUS  &kp PLUS       &kp EQUAL         &kp N5    &kp N6  &kp LEFT_PARENTHESIS   &kp LBKT  &kp LEFT_BRACE   &kp N0    &trans
+&trans  &kp ASTRK  &kp N2     &kp N3         &kp N4            &trans    &trans  &kp N7                 &kp N8    &kp N9           &kp FSLH  &trans
+                              &trans         &trans            &trans    &trans  &trans                 &trans
             >;
         };
 
@@ -49,10 +43,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans        &trans     &trans      &kp AMPS      &kp UNDER  &kp TILDE       &kp PRCNT        &kp PIPE     &kp BACKSLASH  &trans    &trans      &trans
-&kp LEFT_ALT  &kp DEL    &kp SQT     &kp UP_ARROW  &kp DOWN   &kp QUESTION    &kp EXCLAMATION  &kp LEFT     &kp RIGHT      &kp DQT   &kp ESCAPE  &kp CAPS
-&trans        &kp COLON  &kp DOLLAR  &trans        &kp GRAVE  &trans          &trans           &kp AT_SIGN  &trans         &kp HASH  &kp SEMI    &trans
-                                     &trans        &trans     &trans          &trans           &trans       &trans
+&trans  &trans     &trans                  &kp AMPS                        &kp UNDER                    &trans          &trans           &kp PIPE     &kp UP_ARROW  &trans     &trans      &trans
+&trans  &kp DEL    &mt LEFT_ALT BACKSLASH  &mt LEFT_CONTROL DOUBLE_QUOTES  &mt LEFT_SHIFT SINGLE_QUOTE  &kp QUESTION    &kp EXCLAMATION  &kp LEFT     &kp DOWN      &kp RIGHT  &kp ESCAPE  &trans
+&trans  &kp COLON  &kp DOLLAR              &kp TILDE                       &kp GRAVE                    &trans          &trans           &kp AT_SIGN  &kp PERCENT   &kp HASH   &kp SEMI    &trans
+                                           &trans                          &trans                       &trans          &trans           &trans       &trans
             >;
         };
     };
