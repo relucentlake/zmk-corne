@@ -22,7 +22,7 @@
 &trans  &trans  &kp W           &kp L               &kp P             &kp V        &kp K          &kp F              &kp U                &kp Y            &trans  &trans
 &trans  &kp J   &mt LEFT_ALT R  &mt LEFT_CONTROL S  &mt LEFT_SHIFT T  &kp G        &kp M          &mt RIGHT_SHIFT N  &mt RIGHT_CONTROL E  &mt RIGHT_ALT I  &kp B   &trans
 &kp Q   &kp A   &kp DOT         &kp C               &kp D             &trans       &trans         &kp H              &kp Z                &kp COMMA        &kp O   &kp X
-                                &kp TAB             &mo 1             &kp SPACE    &kp BACKSPACE  &mo 2              &kp ENTER
+                                &kp ENTER           &lt 1 TAB         &kp SPACE    &kp BACKSPACE  &lt 2 DEL          &kp ESCAPE
             >;
         };
 
@@ -43,10 +43,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans     &trans                  &kp AMPS                        &kp UNDER                    &trans          &trans           &kp PIPE     &kp UP_ARROW  &trans     &trans      &trans
-&trans  &kp DEL    &mt LEFT_ALT BACKSLASH  &mt LEFT_CONTROL DOUBLE_QUOTES  &mt LEFT_SHIFT SINGLE_QUOTE  &kp QUESTION    &kp EXCLAMATION  &kp LEFT     &kp DOWN      &kp RIGHT  &kp ESCAPE  &trans
-&trans  &kp COLON  &kp DOLLAR              &kp TILDE                       &kp GRAVE                    &trans          &trans           &kp AT_SIGN  &kp PERCENT   &kp HASH   &kp SEMI    &trans
-                                           &trans                          &trans                       &trans          &trans           &trans       &trans
+&trans  &trans     &kp PIPE                &kp UNDER                       &kp AMPS                     &trans    &trans  &kp EXCL     &kp UP_ARROW  &kp QUESTION  &trans    &trans
+&trans  &trans     &mt LEFT_ALT BACKSLASH  &mt LEFT_CONTROL DOUBLE_QUOTES  &mt LEFT_SHIFT SINGLE_QUOTE  &trans    &trans  &kp LEFT     &kp DOWN      &kp RIGHT     &trans    &trans
+&trans  &kp COLON  &kp DOLLAR              &kp TILDE                       &kp GRAVE                    &trans    &trans  &kp AT_SIGN  &kp PERCENT   &kp HASH      &kp SEMI  &trans
+                                           &trans                          &trans                       &trans    &trans  &trans       &trans
             >;
         };
     };
